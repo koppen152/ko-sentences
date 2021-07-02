@@ -1,0 +1,109 @@
+:root {
+   --theme-color: #FFF;
+}
+
+html, body {
+   background-color: var(--theme-color);
+}
+
+.page {
+   display: hidden;
+}
+
+input[type="button"] {
+   border: none;
+   height: 50px;
+   min-width: 200px;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+}
+
+input[type="button"][disabled] {
+   color: gray;
+   border: ridge 5px;
+}
+
+#titled-doc-page {
+   display: block;
+   justify-content: center;
+
+   --form-width: 50%;
+}
+
+#titled-body {
+   --padding: 25px;
+
+   background-color:#ddd;
+   width: var(--form-width);
+   margin-left: calc(50% - var(--form-width) / 2 - var(--padding));
+   margin-top: 40px;
+   padding:var(--padding);
+   display: block;
+   justify-content: left;
+   text-align:left !important;
+}
+
+#titled-doc-page > div {
+   justify-content: center;
+   margin-bottom: 15px;
+   text-align:center;
+}
+
+#titled-doc-page > div > input {
+   background-color:yellow;
+}
+
+#titled-doc-page > span {
+   position:absolute;
+   bottom:10px;
+   font-size:20px;
+   text-align:center;
+   width:100%;
+}
+
+#titled-head {
+   padding:10px;
+   font-size:30px;
+   width:100%;
+   margin-top:10%;
+   text-align:center;
+   justify-content:center;
+   background-color:#ddd;
+}
+
+html, body {
+   overflow:hidden;
+}
+ 
+body {
+   background-color: #fff;
+}
+ 
+.moveable {
+   position:absolute;
+   text-align:center;
+}
+ 
+.moveable > * {
+   vertical-align:middle;
+   display:inline-block;
+}
+ 
+.moveable > span {
+   width:1px;
+   height:100%;
+}
+
+#next {
+   position:absolute;
+   height:20%;
+   right:5px;
+   bottom:5px;
+}
+ 
+#one, #three {
+   z-index: 1;
+}
