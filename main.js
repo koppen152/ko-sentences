@@ -49,7 +49,7 @@ class AudioAtlas {
  
    playTime(start, length) {
      if (this.loaded) {
-       this.audio.currentTime = start;
+       this.audio.currentTime = start + 2;
  
        console.log(`Start: ${start}\nEnd:${start+length}`);
  
@@ -237,7 +237,7 @@ function dragElement(elmnt) {
  
 class Diamond extends AudioPage {
    constructor(audio, im1, im2, im3, im4, random) {
-     super("audio", audio, 2000);
+     super("audio", audio, 0); // 700
      this.im1 = im1;
      this.im2 = im2;
      this.im3 = im3;
@@ -303,7 +303,7 @@ class Diamond extends AudioPage {
      super.play();
      this.setTimeout(
        function(){$("#diamond").show();},
-       500);
+       0); // 500
    }
  
    deactivate() {
