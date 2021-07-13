@@ -41,7 +41,7 @@ class AudioAtlas {
  
    playFile(name) {
      if (name in this.locations) {
-       this.playTime(this.locations[name].start + .2, this.locations[name].length);
+       this.playTime(this.locations[name].start + 1, this.locations[name].length);
      } else {
        console.log(`FILE ${name} not available in atlas`);
      }
