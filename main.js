@@ -237,7 +237,7 @@ function dragElement(elmnt) {
  
 class Diamond extends AudioPage {
    constructor(audio, im1, im2, im3, im4, random) {
-     super("audio", audio, 0);
+     super("audio", audio, 2000);
      this.im1 = im1;
      this.im2 = im2;
      this.im3 = im3;
