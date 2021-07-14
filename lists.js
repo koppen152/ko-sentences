@@ -52,6 +52,6 @@ _global_audio_object = {
       'SmashPresentF.wav': {start: 177.75, length: 5.13}, 
       'SmashPresentRibbon.wav': {start: 182.88, length: 3.46}, 
       'SmashRoosterF.wav': {start: 186.34, length: 4.55}, 
-      'SmashRoosterNest.wav': {start: 190.89, length: 3.81} // Note: make sure to give 0.5s of unused time at the end
+      'SmashRoosterNest.wav': {start: 190.89, length:    4.01} // Note: make sure to give 0.3s of unused time at the end
    }
 };
