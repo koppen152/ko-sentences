@@ -25,7 +25,7 @@ _global_audio_object = {
       'FillerBringPhone.wav': {start: 83.00, length: 3.23},
       'FillerCountStripes.wav': {start: 85.91, length: 3.04},
       'FillerFindOneWear.wav': {start: 90.44, length: 3.28},
-      'FillerGetFlower.wav': {start: 92.72, length: 3.50},
+      'FillerGetFlower.wav': {start: 92.00, length: 3.50},
       'FillerGiveTeddybear.wav': {start: 96.32, length: 2.97},
       'FillerMakePencil.wav': {start: 99.19, length: 3.77},
       'FillerMakeSnowman.wav': {start: 102.45, length: 2.99},
